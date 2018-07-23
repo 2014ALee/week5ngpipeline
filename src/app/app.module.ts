@@ -10,6 +10,7 @@ import { RouterModule } from '@angular/router';
 import { appRoutes } from './routes';
 import { NavComponent } from './components/nav/nav.component';
 import { FormsModule } from '@angular/forms';
+import { LikeButton } from './components/like-button/likeButton';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { FormsModule } from '@angular/forms';
     FirstComponent,
     SecondComponent,
     Clicker,
+    LikeButton,
     NavComponent
   ],
   imports: [
